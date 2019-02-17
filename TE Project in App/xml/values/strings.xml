@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">TE Project</string>
+    <string name="clg_name">Sir Visvesvaraya Institude of Technology, Chincholi Nashik</string>
+    <string name="welcome_name">Welcome to, Sir Visvesvaraya Institute Of Technology, Nashik</string>
+    <string name="history"> The establishment of the Sir Visvesvaraya Institute of Technology in 1998-99,
+symbolizes the ascendance of plateau of achievement of academic excellence,
+in dissemination of quality education from preprimary to collegiate level by,
+Pravara Rural Education Society ensconced at Loni by ,
+by Late Padmashri Dr. Vitthalrao Vikhe Patil in 1964.</string>
+
+    <string name="success1">\u2023 B.E. Chemical student, Ajit Garje (79.20%) topped University of Pune (May/June- 2013 exam.).</string>
+    <string name="success2">\u2023 Computer Engg. Department student Won 3rd Rank in Vertical Limit (Robotic) competition at IIT, Bombay \u0026  1st position in Robo War National Level Competition at KKWCOE, Nashik.</string>
+    <string name="success3">\u2023 T.E. Computer student, Pramod suryawanshi won the First position in Programming Contest at COE, Yeola.</string>
+    <string name="success4">\u2023 B.E. Mechanical student, Vashim Shaikh and T.E. Electrical Siraj Ahmed Shaikh student topped University of Pune (May/June- 2009 exam.)</string>
+    <string name="principle_post"><![CDATA[Prof.(Dr.)K. T. V. Reddy,Campus Director & Principal]]></string>
+    <string name="prici_postPlace"><![CDATA[M-Tech & PhD from IIT Bombay.]]></string>
+    <string name="welcome_to">Welcome to,</string>
+    <string name="success_stories">Success Stories</string>
+    <string name="principal_desk">Principal Desk</string>
+    <string name="quick_links_to_follow_us">Quick Links to Follow us</string>
+    <string name="etc"><![CDATA[E & TC.]]></string>
+    <string name="aimsAndObj"><![CDATA[Aims & Objective]]></string>
+
+    <string name="home">Home</string>
+    <string name="department">Departments</string>
+    <string name="registration">Registration</string>
+    <string name="mission">Mission</string>
+    <string name="about">About Us</string>
+    <string name="reach">Reach Us</string>
+    <string name="fe">First Year Department</string>
+    <string name="computer">Computer Department</string>
+    <string name="IT">IT Department</string>
+    <string name="chemical">Chemical Department</string>
+    <string name="electrical">Electrical Department</string>
+    <string name="mechanical">Mechanical Department</string>
+    <string name="mba">MBA Department</string>
+    <string name="entc"><![CDATA[E & TC Department]]> </string>
+    <string name="login">Login</string>
+    <string name="fe_line1">\u2023 Academic work of First year Engineering is to be planned and monitored by Dean Academic. As per the syllabus prescribed by Savitribai Phule Pune University, First year Engineering students have common curriculum irrespective of specific branches chosen by them.</string>
+    <string name="fe_line2">\u2023 Dean Academic is the Head of First Year Engineering. He monitors the attendance of students, conduct periodical test, identifies needs and arranges some special lectures if required. Also keeps parent informed about progress of their wards at regular interval .We have started Teacher Guardian Scheme (Mentoring Scheme) from academic year 2002. Under the scheme, a teacher is nominated as Guardian for small group of students and students can seek help from respective teacher in solving their day today problem. The scheme also maintains healthy relation between students and teachers.</string>
+    <string name="fe_line3">\u2023 We also believes that overall personality development of students can achieved by giving him opportunities in all possible field , hence we have started separate Students Association of First Year engineering students (SAFE). Under this association, we conduct expert lecture, seminar, workshop and various competitions. </string>
+    <string name="comp_line1">\u2023 The department of Computer engineering is one of the oldest departments and established in the year 1999. It offers UG programs in Computer Engineering with the intake of 60 along with post graduate program in Master of Engineering with the intake of 24 affiliated to Savitribai Phule Pune University.</string>
+    <string name="comp_line2">\u2023 The aim of the Department is to motivate young professionals in building cognitive characteristics and improve the rising engineers with latest trends in technology. The programme is designed to provide students theoretical knowledge and practical skills in the field of latest emerging technology. This curriculum is good enough for employment in academia, government, research, industry, engineering and management positions. The department is committed to continuously improve the quality of education by enhancing the knowledge of students and staff members.</string>
+    <string name="comp_line3">\u2023 The department has the blend of young and experience faculty and technical staff. It has in all 10 state of-the-art computer laboratories with latest computing equipments and softwares and classrooms and a Seminar Hall.</string>
+    <string name="comp_line4">\u2023 I am confident that our staff members and students would satisfy the responsibility and credibility of the department by showing a high level of professional competence in their respective domains.
+</string>
+    <string name="computer_vision">Develop Department of Computer Engineering into center of excellence through imparting technical education of international standards and research in the field of Computer Engineering.</string>
+    <string name="computer_mission">To provide quality engineering education to the students through state of art education in Computer Engineering.</string>
+    <string name="it_vision">The department caters to the needs of Information Technology sector by imparting requisite knowledge to the students, in the field of software development, Information Technology and Information Technology enabled services (ITES).</string>
+    <string name="it_mission">To provide quality engineering education to the students through state of art education in Computer Engineering.
+
+</string>
+    <string name="it_hoddesk1">The department of Computer engineering is one of the oldest departments and established in the year 1999. It offers UG programs in Computer Engineering with the intake of 60 along with post graduate program in Master of Engineering with the intake of 24 affiliated to Savitribai Phule Pune University.</string>
+    <string name="it_hoddesk2">The department has the blend of young and experience faculty and technical staff. It has in all 10 state of-the-art computer laboratories with latest computing equipments and softwares and classrooms and a Seminar Hall.</string>
+    <string name="it_hoddesk3">I am confident that our staff members and students would satisfy the responsibility and credibility of the department by showing a high level of professional competence in their respective domains.</string>
+    <string name="chem_vision">The chemical engineering students association CHESA is active for promoting Paper presentation, workshops and industrial visits to keep in touch with modern day.</string>
+    <string name="chem_mission">To provide quality engineering education to the students through state of art education in Computer Engineering.</string>
+    <string name="ChemHodDesk">Established in the year 1998,Ten fully equipped laboratories, as per AICTE/DTE/University norms.
+Ten well qualified and experienced faculty.Two university toppers in 2003-2004 and 2013-2014
+Different analysis kits and research facilities. Total research Int./ National publications in dept â€“ 75
+Total workshop /seminar conducted- 24.Total conference conducted - 03 Research project - 04 ( 03 completed and 1 ongoing)
+Total alumni in Dept- 440</string>
+
+    <string name="elect_vision">To meet the challenges of new technological advances and to provide update knowledge in the state of Electrical technology.
+
+</string>
+    <string name="elect_mission">To provide knowledge based technology and Service to meet the needs of society globally.To built national capabilities for excellent energy management and audit, and explore non-conventional energy sources.</string>
+    <string name="elect_hodDesk1">The Electrical Engineering Department at SVIT Chincholi (Nashik) has been active since its inception in 1988. Currently about 14 Faculty members are upgrading their Qualification. The department has U.G. Programme with about 250 undergraduate Students.</string>
+    <string name="elect_hodDesk2">The department of Electrical Engineering has well equipped Labs includes Basic Electrical Engineering Lab, Electrical Measurement and Instrumentation Lab, Network Analysis Lab, Computer Programming Lab, Analog and Digital Electronics Lab, Microprocessor and Micro controller Lab, Electrical Machines Lab, Material Science Lab, Switchgear and Protection Lab, High Voltage Engineering, PLC and SCADA Lab, Control System Lab.
+
+</string>
+    <string name="etc_vision">The department of Electronics and Telecommunication Engineering is the latest addition to the institute and has completely developed infrastructure.</string>
+    <string name="etc_mission">To provide quality engineering education to the students through state of art education in Computer Engineering.</string>
+    <string name="etc_hodDesk">E TC Department has a reputation of its own. It has highly sophisticated and well equipped labs. E  TC Departments commitment is to provide quality education in Electronics and Telecommunication. Our lab facilities to develop projects in various fields like embedded system designs, VLSI, Digital Image Processing and wireless communications.
+
+</string>
+    <string name="mech_vision">To nurture globally competent mechanical engineer.</string>
+    <string name="mech_mission">To Impart quality education, complex problem solving skills, take up global challenges and role of mechanical engineer towards society which ensure students to become Professionals.</string>
+    <string name="mech_hodDesk1">Department of Mechanical Engineering , SVIT provides excellent education platform to make our Mechanical engineer students ready to accept the challenges of the new era.
+
+</string>
+    <string name="mech_hodDesk2">We have well qualified and experience teaching faculity ,well equipped modern laboratory ,computers with high configuration and newly developed software required by Mechanical Engineering.
+
+</string>
+    <string name="mech_hodDesk3">We have excellent track of result with university toppers and excellent employability of very attractive packages.To develop the personality in all dimensions we have different organization like MESA.</string>
+
+    <string name="mba_vision">Shaping a better future for mankind by developing effective and socially responsible professionals to lead organizations</string>
+    <string name="mba_mission"> To develop value based managers and entrepreneurs through cutting edge management education by motivating them through highly qualified and competent faculty equipped with latest teaching learning practices in a conductive academic ambience.</string>
+    <string name="mbaHodDesk1">I welcome you to the SVIT, MBA which is established in 2008. It is an addition to the galaxy of education endeavours of Pravara to provide high-tech, practical management education to the students coming from different backgrounds. It is founded by Late Padmashree Dr. Vitthalrao Vikhe Patil with a mission of development and growth of rural masses.</string>
+    <string name="mbaHodDesk2">M.B.A. Centre is housed in spacious building consisting of well-lit and well-ventilated class-rooms, tutorial rooms and a Conference hall. They are well equipped with modern audio-visual aids. We organise various management development programmes, Seminars, Workshops, Conferences as well as Training Programs for our students. To enhance the teaching-learning process, a guest lecture by experts from corporate world is organized to bridge the gap between theory and industry. Every year our students are undergoing on the job training programmes on subjects like Retail Management, Share Market Analysis etc. In addition to this, Industrial visits to renowned organizations like Bombay Stock Exchange, Crompton Greaves, Godrej, Parle Biscuits and VIP etc. are organised frequently to give practical exposure of various industries to students.
+
+</string>
+    <string name="mbaHodDesk3">Our institute has got a separate dedicated Training and Placement cell which takes all round efforts in providing employment opportunities and industry mentored projects to all the students. Our students got placed in reputed organizations like ABB Ltd, Axis Bank, Accenture, Aegon Religare, Birla Global, Bajaj Allianz, ETON, Gateway Hotel, HDFC Bank, Hindustan National Glass, ICICI Bank, Parle Biscuits, LIC, Shoppers Stop and T.C.S etc.</string>
+
+    <string name="firstName">First Name : </string>
+    <string name="middleName">Middle Name : </string>
+    <string name="lastName">Last Name : </string>
+    <string name="email">Email ID : </string>
+    <string name="mobile">Mobile No : </string>
+    <string name="branch">Branch : </string>
+    <string name="DOB">Date of Birth : </string>
+    <string name="todaysDate">Today\u2019s Date : </string>
+    <string name="firstHint">Enter First Name</string>
+    <string name="middleHint">Enter Father/Husband Name</string>
+    <string name="lastHint">Enter Last Name</string>
+    <string name="emailHint">example@gmail.com</string>
+    <string name="mobileHint">Enter Mobile No</string>
+    <string name="svit_vision">SIR VISVESVARAYA INSTITUTE OF TECHNOLOGY is committed to usher in socio - economic transformation by providing inclusive innovative quality education of global standards to fully meet the expectations of the stake holders as initiated by the founding fathers.</string>
+    <string name="svit_mission">To recruit and retain well qualified motivated faculty and staff and provide adequate infrastructure, equipments and machinery. To provide amenities and sports facilities in harmony with nature. Nurture industry institute interaction to provide adequate exposure to the students to the world of work. Enrich library and provide latest teaching gadgets and process to promote effective teaching, learning. To provide holistic value based education and inculcate entrepreunal abilities so that the students are well groomed in knowledge, skills and values to have the ability to face the challenges of the corporate world and life.</string>
+    <string name="svit_aim1">\u2023 Provide inclusive technical education so that a deserving student is not denied an opportunity for technical education solely on socio economic constraints.</string>
+    <string name="svit_aim2">\u2023 Provide holistic education to develop skills, knowledge and values through well-structured curriculum and instructions.</string>
+    <string name="svit_aim3">\u2023 To make students readily acceptable to the corporate world and promote entrepreneurship.</string>
+
+    <string name="abtSocity">The Pravara Rural Education Society grew, fostered and evolved during the life time of
+    Padmashri Dr. Vitthalrao Vikhe Patil.
+    After him all the multifarious and multifaceted activities initiated by him are continued and infact,
+    taken to greater height by the illustrious son Honable Shri. E.V. alias Balasaheb Vikhe Patil, a veteran and
+    Public Enterprises, Govt. Of India. The Seed laid by the Padmashriji is bloosming into sylvan symphony with a
+    large chain of educational institutions through the meticulous planning and dynamic leadership of Shri Balasaheb
+    Vikhe Patil \u2019 the worthy son of worthy father \u2019. He is taking keen interest in the progress of various
+    institutions of various institution of Pravara Rural Education society and has taken up the Herculean task of
+    modernizing the System and Processes. He has new knowledge with suitable blend of Indian culture and is working
+    day and night to impart programmatic dimensions to Pravara Rural Education Society and the institution under this.
+</string>
+    <string name="admin_id">Enter ID as : svit4027</string>
+    <string name="adminPassword">Enter Password as : admin@svit4027</string>
+    <string name="svitAddress">A/p. Chincholi Tal.:Sinner, Dist.: Nashik, Maharashtra,India- 422102.</string>
+    <string name="svitMobileNo">+91 9423787347 , +91 2551 271278 , +91 2551 271179,+91 2551 271261</string>
+    <string name="svitEmail">svmec_nskch@rediffmail.com</string>
+    <string name="commentHint">Comments must be Question , Query and any other suggestion</string>
+
+
+</resources>

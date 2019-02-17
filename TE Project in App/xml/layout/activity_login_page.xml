@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@+id/login_drawer"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#BCDEFA"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/login_toolbar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/header_logo"
+            />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/admin_card_id"
+            android:layout_width="250sp"
+            android:layout_height="250sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100sp"
+            app:cardElevation="20sp"
+            app:cardCornerRadius="30sp"
+            >
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/login_icon"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:background="#ffffff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login as Admin"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100sp"
+                android:textColor="#000000"
+                android:fontFamily="serif"
+                />
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/login_navigation"
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_list"
+        app:headerLayout="@layout/header_menu"
+        />
+
+</android.support.v4.widget.DrawerLayout>

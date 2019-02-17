@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@+id/drawer"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="#BCDEFA"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_id"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/header_logo"
+                    />
+
+                <TextView
+                    android:id="@+id/clgName_id"
+                    android:textColor="#0000FF"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clg_name"
+                    android:textSize="25sp"
+                    android:singleLine="true"
+                    android:layout_marginTop="10sp"
+                    android:ellipsize="marquee"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:src="@drawable/svit_building"
+                    android:layout_marginTop="10sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome_to"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#0040ff"
+                    android:layout_marginTop="10sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clg_name"
+                    android:gravity="center"
+
+                    android:textColor="#0040ff"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/OnlyForHorizontal_line1"
+                    android:layout_width="370sp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/history"
+                    android:textSize="16sp"
+                    android:textColor="#0000FF"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginTop="10sp"
+                    />
+
+                <TextView
+                    android:id="@+id/OnlyForHorizontal_line2"
+                    android:layout_width="370sp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:background="#000000"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success_stories"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#0040ff"
+                    android:layout_marginTop="10sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success1"
+                    android:textColor="#0000FF"
+                    android:textSize="15dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_marginTop="5sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success2"
+                    android:textColor="#0000FF"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginTop="5sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success3"
+                    android:textColor="#0000FF"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_marginTop="5sp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/success4"
+                    android:textColor="#0000FF"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginTop="5sp"
+                    />
+
+                <TextView
+                    android:id="@+id/OnlyForHorizontal_line3"
+                    android:layout_width="370sp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10sp"
+                    android:background="#000000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/principal_desk"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#0040ff"
+                    android:layout_marginTop="10sp"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200sp"
+                    android:src="@drawable/svit_principle"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="10sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/principle_post"
+                    android:textSize="16sp"
+                    android:textColor="#000000"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prici_postPlace"
+                    android:textSize="10sp"
+                    android:textColor="#000000"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:background="#000000"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10sp"
+                        android:background="#000000"
+                        android:fontFamily="serif"
+                        android:gravity="center"
+                        android:text="@string/quick_links_to_follow_us"
+                        android:textColor="#ffffff"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/facebook_id"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="50sp"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitXY"
+                            android:background="#000000"
+                            android:src="@drawable/fb" />
+
+                        <ImageButton
+                            android:id="@+id/google_id"
+                            android:layout_width="68dp"
+                            android:layout_height="65dp"
+                            android:layout_marginLeft="50sp"
+                            android:scaleType="fitXY"
+                            android:layout_marginTop="15sp"
+                            android:background="#000000"
+                            android:src="@drawable/google_plus" />
+
+                        <ImageButton
+                            android:id="@+id/twitter_id"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="50sp"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitXY"
+                            android:background="#000000"
+                            android:src="@drawable/twitter_image" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation_id"
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_list"
+        app:headerLayout="@layout/header_menu"
+        />
+
+</android.support.v4.widget.DrawerLayout>

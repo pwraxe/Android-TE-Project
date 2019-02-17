@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@+id/dept_drawer"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#BCDEFA"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/dept_toolbar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:rowCount="3"
+                android:columnCount="2"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card1"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fe_icon" />
+
+                        <Button
+                            android:id="@+id/fe_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="FE"
+                            android:background="#FFFFFF"
+                            android:onClick="showDept"
+                            android:layout_below="@id/fe_image1"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card2"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/computer_icon" />
+
+                        <Button
+                            android:id="@+id/computer_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="Computer"
+                            android:background="#FFFFFF"
+                            android:onClick="showDept"
+                            android:layout_below="@id/fe_image2"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card3"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/it_icon" />
+                        <Button
+                            android:id="@+id/it_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="IT"
+                            android:onClick="showDept"
+                            android:background="#FFFFFF"
+                            android:layout_below="@id/fe_image3"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card4"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/chemical_icon" />
+
+                        <Button
+                            android:id="@+id/chemical_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="Chemical"
+                            android:background="#FFFFFF"
+                            android:onClick="showDept"
+                            android:layout_below="@id/fe_image4"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card5"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/electrical_icon" />
+
+                        <Button
+                            android:id="@+id/electrical_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="Electrical"
+                            android:background="#FFFFFF"
+                            android:onClick="showDept"
+                            android:layout_below="@id/fe_image5"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card6"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/etc_icon" />
+
+                        <Button
+                            android:id="@+id/etc_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="@string/etc"
+                            android:background="#FFFFFF"
+                            android:onClick="showDept"
+                            android:layout_below="@id/fe_image6"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card7"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image7"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/mech_icon" />
+
+                        <Button
+                            android:id="@+id/mech_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:text="Mechanical"
+                            android:background="#FFFFFF"
+                            android:onClick="showDept"
+                            android:layout_below="@id/fe_image7"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/fe_card8"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="20sp"
+                    app:cardElevation="10sp"
+                    app:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/fe_image8"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/mba_icon" />
+
+                        <Button
+                            android:id="@+id/mba_button"
+                            android:layout_width="match_parent"
+                            android:layout_height="24dp"
+                            android:onClick="showDept"
+                            android:text="MBA"
+                            android:background="#FFFFFF"
+                            android:layout_below="@id/fe_image8"
+                            android:textSize="12sp"
+                            />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </GridLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/dept_navigation"
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_list"
+        app:headerLayout="@layout/header_menu"
+        />
+
+</android.support.v4.widget.DrawerLayout>
